@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    
+    margin:10%;
+    padding: 0;
+    background-color:blue;
+    justify-content: center;
+    
+
+}
+
+.container {
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.título {
+    margin: 10px;
+}
+
+.daltura, .dpeso, .dbutton{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+}
+
+
+.Valor-do-IMC{
+    align-items: center;
+    margin: 10px;
+
+}
+
+.massa {
+    flex-direction: row;
+    display: flex;
+    gap: 5px;
+}
+
+.Condição {
+
+    flex-direction: row;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+span {
+    font-weight: bold;
+    color: #ffff;
+}
+
+input {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #6f00ff;
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    height: 50px;
+}
+
+h2{
+    color: beige;
+}
+
+h4 {
+    color: beige;
+}
